@@ -1,0 +1,3 @@
+s="durga is python"
+l=list(s)
+print(l)
