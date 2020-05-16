@@ -13,6 +13,6 @@ print (eval(input("enter exp")))
 
 a=int(input("Enter 1 number"))
 b=int(input("Enter 2 number"))
-print(a+b)
+print("Addition is : ":a+b)
 
 
