@@ -1,6 +1,7 @@
 try:
     print(10/0)
 
-except ZeroDivisionError:
-    
-    print('not poswilr to excecutre')
+except ZeroDivisionError as E:
+    print('not poswilr to excecutre ',E.__class__.__name__)
+    print('not poswilr to excecutre ',type(E))
+    print('not poswilr to excecutre ',E)
